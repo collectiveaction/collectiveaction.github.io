@@ -1,9 +1,12 @@
 {
-  "name": "collectiveaction.github.io",
-  "version": "1.0.0",
-  "description": "Collective Action",
-  "main": "index.js",
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.9.0"
+  },
   "dependencies": {
+<<<<<<< HEAD
     "babel-cli": "^6.22.2",
     "babel-core": "^6.22.1",
     "babel-loader": "^6.2.10",
@@ -14,15 +17,15 @@
 =======
 >>>>>>> 9263741... Installation of React, Babel, and Webpack
     "webpack": "^2.2.1"
+=======
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+>>>>>>> d65f1bd... Create-react-app 2
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@collectiveaction:collectiveaction/collectiveaction.github.io.git"
-  },
-  "author": "collectiveaction",
-  "license": "ISC"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
 }
